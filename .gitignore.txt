@@ -1,0 +1,20 @@
+# Archivos temporales y respaldos de KiCad
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*-cache*
+_autosave-*
+*.tmp
+
+# Archivos de Red (Netlist) y Autoruteo si los usas
+*.net
+*.dsn
+*.ses
+
+# Archivos de reporte BOM o reportes de reglas de diseño (DRC)
+*.xml
+*.csv
+*.rpt
