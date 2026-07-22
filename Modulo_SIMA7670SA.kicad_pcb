@@ -26094,6 +26094,31 @@
 	(zone
 		(net "GND")
 		(layer "B.Cu")
+		(uuid "5fbb2edc-dd05-4f35-b7e4-113d19dd7e1a")
+		(name "Pour7")
+		(hatch full 0.1)
+		(priority 10)
+		(connect_pads
+			(clearance 0.25)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(smoothing chamfer)
+			(radius 0.1)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 116.088561 101.955437) (xy 119.405103 101.976943) (xy 119.390274 99.088182) (xy 169.398966 98.83146)
+				(xy 169.411089 110.632931) (xy 116.031937 110.687765)
+			)
+		)
+	)
+	(zone
+		(net "GND")
+		(layer "B.Cu")
 		(uuid "a98a3dd2-b633-4588-8039-37c866f6ef3e")
 		(name "Pour8")
 		(hatch full 0.1)
