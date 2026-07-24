@@ -6117,7 +6117,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "ST-LINK V2 (20070241)\nBlack Pill (60069228)"
+	(text "ST-LINK V2 (20070241)\nBlack Pill (60069229)"
 		(exclude_from_sim no)
 		(at 15.494 14.732 0)
 		(effects
@@ -6130,7 +6130,7 @@
 	)
 	(text "Cable coaxial Pigtail\nRF-RG178, IPX U.FL a IPX U.FL"
 		(exclude_from_sim no)
-		(at 221.488 17.272 0)
+		(at 219.71 60.325 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -6148,17 +6148,6 @@
 			)
 		)
 		(uuid "5125b4c7-6e91-470f-814f-e2b72e99523f")
-	)
-	(text "Cortar Diodo USB blackPill."
-		(exclude_from_sim no)
-		(at 121.285 174.625 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "d8e72d3b-6479-46a8-829a-3ee64e00b719")
 	)
 	(text "PA0 --> KEY\nPC13 --> USER-LED.\nPA11 (D-) y PA12 (D+)\nPA9 USB_VBUS (Detección de 5V, opcional)\nPB2 con pullDown de 10K\nPA13 SWDIO\nPA14 SWCLK\nPA4 F_CS, PA5 SCK, PA7 MOSI, PB4 MISO"
 		(exclude_from_sim no)

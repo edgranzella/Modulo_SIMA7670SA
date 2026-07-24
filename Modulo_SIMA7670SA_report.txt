@@ -1,25 +1,25 @@
 Informe de estadísticas de la placa
 =============================
-- Fecha: 22/07/2026 08:30:28
+- Fecha: 24/07/2026 10:16:52
 - Proyecto: Modulo_SIMA7670SA
 - Nombre de placa: Modulo_SIMA7670SA
 
 Placa
 -----
-- Anchura: 100.0000 mm
+- Anchura: 90.3000 mm
 - Alto: 85.0000 mm
-- Área: 8500.00 mm²
-- Área de cobre frontal: 1563.785 mm²
-- Área de cobre posterior: 4274.085 mm²
+- Área: 7675.50 mm²
+- Área de cobre frontal: 2356.291 mm²
+- Área de cobre posterior: 5761.443 mm²
 - Margen mínimo de pista: 0.2000 mm
 - Ancho mínimo de pista: 0.5000 mm
 - Diámetro mín. de taladro: 0.3000 mm
 - Grosor del apilado de la placa: 1.6000 mm
 
-- Área de huellas frontal: 4606.576 mm²
+- Área de huellas frontal: 4521.019 mm²
 - Área de huellas posterior: 565.234 mm²
-- Densidad de componentes frontal: 54.20 %
-- Densidad de componentes posterior: 6.65 %
+- Densidad de componentes frontal: 58.90 %
+- Densidad de componentes posterior: 7.36 %
 Pads
 ----
 - Agujero pasante: 117
@@ -31,7 +31,7 @@ Pads
 
 Vías
 ----
-- Vías pasantes: 13
+- Vías pasantes: 19
 - Vías ciegas: 0
 - Vías enterradas: 0
 - Microvías: 0
@@ -53,11 +53,11 @@ Agujeros de taladros
 |----------|---------|-----------|-----------|-----------|---------|--------------|------------|
 |       70 | Redondo | 1.0000 mm | 1.0000 mm |       PTH |     Pad |         F.Cu |       B.Cu |
 |       26 | Redondo | 0.8000 mm | 0.8000 mm |       PTH |     Pad |         F.Cu |       B.Cu |
-|       11 | Redondo | 0.8000 mm | 0.8000 mm |       PTH |     Vía |         F.Cu |       B.Cu |
+|       13 | Redondo | 0.8000 mm | 0.8000 mm |       PTH |     Vía |         F.Cu |       B.Cu |
 |        8 | Redondo | 1.6000 mm | 1.6000 mm |       PTH |     Pad |         F.Cu |       B.Cu |
 |        6 | Redondo | 0.9000 mm | 0.9000 mm |       PTH |     Pad |         F.Cu |       B.Cu |
+|        6 | Redondo | 0.3000 mm | 0.3000 mm |       PTH |     Vía |         F.Cu |       B.Cu |
 |        4 | Redondo | 4.0000 mm | 4.0000 mm |      NPTH |     Pad |         F.Cu |       B.Cu |
 |        3 | Redondo | 1.1000 mm | 1.1000 mm |       PTH |     Pad |         F.Cu |       B.Cu |
 |        2 | Redondo | 3.2000 mm | 3.2000 mm |       PTH |     Pad |         F.Cu |       B.Cu |
 |        2 | Redondo | 1.3000 mm | 1.3000 mm |       PTH |     Pad |         F.Cu |       B.Cu |
-|        2 | Redondo | 0.3000 mm | 0.3000 mm |       PTH |     Vía |         F.Cu |       B.Cu |
