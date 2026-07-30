@@ -1,0 +1,10 @@
+Trazado a 'C:\Users\dgranzella\Documents\GPRS_SIM_A7670SA_kicad\Modulo_SIMA7670SA\Gerber Files\Modulo_SIMA7670SA-F_Cu.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\GPRS_SIM_A7670SA_kicad\Modulo_SIMA7670SA\Gerber Files\Modulo_SIMA7670SA-B_Cu.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\GPRS_SIM_A7670SA_kicad\Modulo_SIMA7670SA\Gerber Files\Modulo_SIMA7670SA-F_Paste.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\GPRS_SIM_A7670SA_kicad\Modulo_SIMA7670SA\Gerber Files\Modulo_SIMA7670SA-B_Paste.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\GPRS_SIM_A7670SA_kicad\Modulo_SIMA7670SA\Gerber Files\Modulo_SIMA7670SA-F_Silkscreen.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\GPRS_SIM_A7670SA_kicad\Modulo_SIMA7670SA\Gerber Files\Modulo_SIMA7670SA-F_Mask.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\GPRS_SIM_A7670SA_kicad\Modulo_SIMA7670SA\Gerber Files\Modulo_SIMA7670SA-B_Mask.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\GPRS_SIM_A7670SA_kicad\Modulo_SIMA7670SA\Gerber Files\Modulo_SIMA7670SA-Edge_Cuts.gbr'.
+Archivo de trabajo Gerber 'C:\Users\dgranzella\Documents\GPRS_SIM_A7670SA_kicad\Modulo_SIMA7670SA\Gerber Files\Modulo_SIMA7670SA-job.gbrjob' creado.
+Info: Listo.
