@@ -7174,16 +7174,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.845 34.29) (xy 40.005 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7136afa-eabf-4239-981c-cadb31c813c0")
-	)
-	(wire
-		(pts
 			(xy 67.31 132.715) (xy 74.93 132.715)
 		)
 		(stroke
@@ -7421,6 +7411,16 @@
 			(type default)
 		)
 		(uuid "f042ab14-bda6-4010-b596-fd3e988222fb")
+	)
+	(wire
+		(pts
+			(xy 29.845 34.29) (xy 40.005 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15fad87-d707-4522-a67c-1458824a479c")
 	)
 	(wire
 		(pts
@@ -8304,7 +8304,8 @@
 	)
 	(symbol
 		(lib_id "TBP01R1-508-02BE:TBP01R1-508-02BE")
-		(at 19.685 34.29 180)
+		(at 19.685 36.83 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8314,7 +8315,7 @@
 		(dnp no)
 		(uuid "04c9c3c8-da39-421e-80da-36b0037691f0")
 		(property "Reference" "J1"
-			(at 20.955 28.067 0)
+			(at 20.32 28.575 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8325,7 +8326,7 @@
 			)
 		)
 		(property "Value" "TBP01R1-508-02BE"
-			(at 33.782 30.48 0)
+			(at 34.925 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8336,7 +8337,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 19.685 34.29 0)
+			(at 19.685 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8348,7 +8349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.685 34.29 0)
+			(at 19.685 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8359,7 +8360,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.685 34.29 0)
+			(at 19.685 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8370,7 +8371,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 19.685 34.29 0)
+			(at 19.685 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8382,7 +8383,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CUI"
-			(at 19.685 34.29 0)
+			(at 19.685 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8394,7 +8395,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 19.685 34.29 0)
+			(at 19.685 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
