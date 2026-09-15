@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.3"
     },
-    "CreationDate": "2026-07-29T10:31:46-03:00"
+    "CreationDate": "2026-09-10T08:43:52-03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -49,11 +49,6 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Modulo_SIMA7670SA-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "Modulo_SIMA7670SA-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
@@ -64,13 +59,13 @@
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Modulo_SIMA7670SA-B_Mask.gbr",
-      "FileFunction": "SolderMask,Bot",
-      "FilePolarity": "Negative"
-    },
-    {
       "Path": "Modulo_SIMA7670SA-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Modulo_SIMA7670SA-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     }
   ],

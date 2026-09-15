@@ -1531,6 +1531,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4376,6 +4541,257 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Protection:RCLAMP0582B"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RCLAMP0582B"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low capacitance unidirectional dual ESD protection diode, SC-75"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "tvs unidirectional"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?416*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RCLAMP0582B_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.81) (xy 2.54 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 2.54 1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RCLAMP0582B_1_1"
+				(circle
+					(center -1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -1.27) (xy 2.54 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 -3.81) (xy 2.032 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LM7805_TO220"
 			(pin_names
 				(offset 0.254)
@@ -6139,7 +6555,7 @@
 		)
 		(uuid "40554d36-25e1-406f-a0bb-370a3d4d1bb0")
 	)
-	(text "Ajustar el Regulador Voltaje a 5V.\nLuego se coloca el JP6\n"
+	(text "Ajustar el Regulador Voltaje a 5V.\nLuego se coloca el JP2\n"
 		(exclude_from_sim no)
 		(at 76.962 52.07 0)
 		(effects
@@ -6148,6 +6564,16 @@
 			)
 		)
 		(uuid "5125b4c7-6e91-470f-814f-e2b72e99523f")
+	)
+	(text "RS232 cable derecho."
+		(exclude_from_sim no)
+		(at 36.83 86.36 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "8d557a5d-a477-4053-9e0a-3297b7193ed1")
 	)
 	(text "PA0 --> KEY\nPC13 --> USER-LED.\nPA11 (D-) y PA12 (D+)\nPA9 USB_VBUS (Detección de 5V, opcional)\nPB2 con pullDown de 10K\nPA13 SWDIO\nPA14 SWCLK\nPA4 F_CS, PA5 SCK, PA7 MOSI, PB4 MISO"
 		(exclude_from_sim no)
@@ -6185,13 +6611,7 @@
 		(uuid "1a601784-dea7-497c-994e-af654ed597fd")
 	)
 	(junction
-		(at 146.05 19.685)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e6cdc00-182b-4394-92e9-e2c439732990")
-	)
-	(junction
-		(at 70.485 107.95)
+		(at 74.93 109.855)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "309b8a35-767d-428f-878a-febe79ec813b")
@@ -6207,6 +6627,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "339b018e-9f75-4d20-a57f-379de65f7a5e")
+	)
+	(junction
+		(at 38.1 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d7a9f36-4647-402b-8bcb-d7b0823fcc28")
 	)
 	(junction
 		(at 33.02 166.37)
@@ -6239,7 +6665,7 @@
 		(uuid "51f3fe78-09e8-4e67-a793-b3398c4f1dc4")
 	)
 	(junction
-		(at 66.675 107.95)
+		(at 71.12 109.855)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5286a460-9c33-4534-912c-5b65d34c45dd")
@@ -6251,13 +6677,13 @@
 		(uuid "5949eeaf-fae9-44e3-9dbf-2a12a0f80f44")
 	)
 	(junction
-		(at 67.31 132.715)
+		(at 71.755 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a9d9d2b-cefd-45e7-b4ac-b8440ac5ab08")
 	)
 	(junction
-		(at 74.93 125.095)
+		(at 79.375 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61462eb4-a61b-4b45-8ed9-e48ebadacebc")
@@ -6275,6 +6701,12 @@
 		(uuid "76084234-cc54-4c3c-ba95-54f47600da9d")
 	)
 	(junction
+		(at 151.765 19.685)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76c9bce2-a697-4170-b3ec-6813730d0faf")
+	)
+	(junction
 		(at 193.675 40.005)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6285,12 +6717,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93f83225-7577-4100-bc37-904b971aab8a")
-	)
-	(junction
-		(at 31.75 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "975fb4a2-d956-4066-98c7-7c2eaf8e6fa2")
 	)
 	(junction
 		(at 202.565 40.005)
@@ -6323,7 +6749,7 @@
 		(uuid "b146b2d3-6b00-44cf-9f15-8498531c882b")
 	)
 	(junction
-		(at 75.565 115.57)
+		(at 80.01 117.475)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba04a242-c4e4-4080-941f-57460bc1c544")
@@ -6341,7 +6767,7 @@
 		(uuid "c8dcaca0-1132-4816-b769-ee4416109126")
 	)
 	(junction
-		(at 80.645 107.95)
+		(at 85.09 109.855)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca205dda-1c90-4db9-a61d-66576e91df03")
@@ -6353,10 +6779,22 @@
 		(uuid "cc287aa4-a46e-455b-8c03-387b7589c290")
 	)
 	(junction
+		(at 22.86 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5158dc6-dbc4-4a89-8f5e-a4b3e86dd3b2")
+	)
+	(junction
 		(at 65.405 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da39887b-0b89-4cb2-b366-99e838dc2475")
+	)
+	(junction
+		(at 31.75 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7ed148c-126b-4e29-b369-cf501633d69a")
 	)
 	(junction
 		(at 71.12 155.575)
@@ -6377,10 +6815,26 @@
 		(uuid "ec5e12d6-c3a9-40b2-bd5f-7a297390335b")
 	)
 	(junction
+		(at 35.56 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edd929b2-dd9a-4b0d-a131-8ecdef055f57")
+	)
+	(junction
 		(at 186.69 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efc09442-ed55-4ef6-bfbd-3ada5b8f61b2")
+	)
+	(wire
+		(pts
+			(xy 31.75 133.985) (xy 31.75 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bb885d-4212-4d7b-abbe-c9278757bd79")
 	)
 	(wire
 		(pts
@@ -6434,7 +6888,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 115.57) (xy 75.565 115.57)
+			(xy 78.74 117.475) (xy 80.01 117.475)
 		)
 		(stroke
 			(width 0)
@@ -6444,7 +6898,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 107.95) (xy 70.485 107.95)
+			(xy 71.12 109.855) (xy 74.93 109.855)
 		)
 		(stroke
 			(width 0)
@@ -6544,6 +6998,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 101.6) (xy 44.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24aa4f4d-b2a1-46c4-918e-16b00ab4f948")
+	)
+	(wire
+		(pts
 			(xy 71.12 179.705) (xy 78.74 179.705)
 		)
 		(stroke
@@ -6604,7 +7068,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.565 115.57) (xy 76.835 115.57)
+			(xy 80.01 117.475) (xy 81.28 117.475)
 		)
 		(stroke
 			(width 0)
@@ -6654,6 +7118,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.785 106.68) (xy 57.785 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fba034-eabd-4399-aa23-417fdfbb7a84")
+	)
+	(wire
+		(pts
 			(xy 251.46 137.16) (xy 251.46 119.38)
 		)
 		(stroke
@@ -6661,6 +7135,26 @@
 			(type default)
 		)
 		(uuid "351e1fac-6887-4b37-9091-9dc2e719770a")
+	)
+	(wire
+		(pts
+			(xy 55.88 95.25) (xy 172.72 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3621492e-76f9-4cb9-bcbc-cb9425fb4b16")
+	)
+	(wire
+		(pts
+			(xy 52.07 101.6) (xy 55.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367b22a3-1c2a-4f1f-b933-40b335577d7a")
 	)
 	(wire
 		(pts
@@ -6704,13 +7198,33 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 120.015) (xy 84.455 120.015)
+			(xy 57.785 92.71) (xy 170.815 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43447b42-d62b-4fb8-94ec-57f4ec0dd11f")
+	)
+	(wire
+		(pts
+			(xy 71.755 121.92) (xy 88.9 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "443b2c3f-0668-4158-9ae4-86492b55afeb")
+	)
+	(wire
+		(pts
+			(xy 57.785 106.68) (xy 52.07 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480de730-eb5d-4e04-83b3-3ae26be94372")
 	)
 	(wire
 		(pts
@@ -6751,16 +7265,6 @@
 			(type default)
 		)
 		(uuid "4dcc39c5-f728-413e-91dc-1e77a324ca49")
-	)
-	(wire
-		(pts
-			(xy 170.815 92.71) (xy 40.64 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e5f8104-8323-4078-ba08-9ec19061cafe")
 	)
 	(wire
 		(pts
@@ -6814,16 +7318,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 116.84) (xy 34.925 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59a72d00-80e4-49b5-a319-db6256c4d5d6")
-	)
-	(wire
-		(pts
 			(xy 175.895 110.49) (xy 172.72 110.49)
 		)
 		(stroke
@@ -6834,16 +7328,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 95.25) (xy 36.195 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4e67d7-4013-4aef-916f-e9303a5f7287")
-	)
-	(wire
-		(pts
 			(xy 119.38 148.59) (xy 137.16 148.59)
 		)
 		(stroke
@@ -6851,6 +7335,16 @@
 			(type default)
 		)
 		(uuid "5df7d790-0016-4ad2-b490-8d64eb112576")
+	)
+	(wire
+		(pts
+			(xy 40.005 128.905) (xy 35.56 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f12ef56-47a7-46ce-88f2-7c6445175968")
 	)
 	(wire
 		(pts
@@ -6904,17 +7398,17 @@
 	)
 	(wire
 		(pts
-			(xy 36.195 101.6) (xy 36.195 95.25)
+			(xy 40.005 115.57) (xy 38.1 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "718b2e80-d6db-48ae-9739-2e351a166808")
+		(uuid "6f0aefe8-b8db-4113-9bed-7ab738aff296")
 	)
 	(wire
 		(pts
-			(xy 70.485 100.965) (xy 70.485 107.95)
+			(xy 74.93 102.87) (xy 74.93 109.855)
 		)
 		(stroke
 			(width 0)
@@ -7004,6 +7498,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 120.65) (xy 40.005 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862b40a0-7407-4d43-9ab5-fa58411de215")
+	)
+	(wire
+		(pts
 			(xy 172.72 129.54) (xy 221.615 129.54)
 		)
 		(stroke
@@ -7014,7 +7518,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 101.6) (xy 36.195 101.6)
+			(xy 31.75 101.6) (xy 35.56 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7054,6 +7558,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 128.905) (xy 35.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9642ce-bb96-4329-aeb1-261c556735f3")
+	)
+	(wire
+		(pts
 			(xy 121.285 33.655) (xy 125.73 33.655)
 		)
 		(stroke
@@ -7074,16 +7588,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 106.68) (xy 40.64 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a952af01-3901-4148-bb2b-aefbafe563e9")
-	)
-	(wire
-		(pts
 			(xy 146.05 19.685) (xy 151.765 19.685)
 		)
 		(stroke
@@ -7094,7 +7598,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 107.95) (xy 84.455 107.95)
+			(xy 85.09 109.855) (xy 88.9 109.855)
 		)
 		(stroke
 			(width 0)
@@ -7164,7 +7668,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 106.68) (xy 40.64 106.68)
+			(xy 31.75 106.68) (xy 38.1 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7174,7 +7678,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 132.715) (xy 74.93 132.715)
+			(xy 71.755 134.62) (xy 79.375 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7194,7 +7698,17 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 120.015) (xy 84.455 115.57)
+			(xy 38.1 106.68) (xy 44.45 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdce24f-df2a-45ba-b0d0-c0f9b79a0857")
+	)
+	(wire
+		(pts
+			(xy 88.9 121.92) (xy 88.9 117.475)
 		)
 		(stroke
 			(width 0)
@@ -7214,7 +7728,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 130.175) (xy 67.31 132.715)
+			(xy 71.755 132.08) (xy 71.755 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7284,7 +7798,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 107.95) (xy 66.675 115.57)
+			(xy 40.005 133.985) (xy 31.75 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e0ffe6-bf5b-4d51-8454-d60a712c0caa")
+	)
+	(wire
+		(pts
+			(xy 55.88 101.6) (xy 55.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e5ec05-43f1-4084-a31d-21901322a3ea")
+	)
+	(wire
+		(pts
+			(xy 71.12 109.855) (xy 71.12 117.475)
 		)
 		(stroke
 			(width 0)
@@ -7394,6 +7928,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 115.57) (xy 38.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe6bbe9-abb1-4119-b625-8db4714a92f7")
+	)
+	(wire
+		(pts
 			(xy 40.005 34.29) (xy 40.005 47.625)
 		)
 		(stroke
@@ -7464,7 +8008,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 100.965) (xy 80.645 107.95)
+			(xy 85.09 102.87) (xy 85.09 109.855)
 		)
 		(stroke
 			(width 0)
@@ -7872,7 +8416,7 @@
 	)
 	(global_label "ON_MODEM"
 		(shape input)
-		(at 82.55 125.095 0)
+		(at 86.995 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7882,7 +8426,7 @@
 		)
 		(uuid "2e3d2ae6-97c4-4d3e-b26f-e33965f6a7d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.8161 125.095 0)
+			(at 100.2611 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8422,7 +8966,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 70.485 115.57 90)
+		(at 74.93 117.475 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8432,7 +8976,7 @@
 		(dnp no)
 		(uuid "0699f86e-4de4-4150-80a3-d917425b27fc")
 		(property "Reference" "R4"
-			(at 70.612 117.602 90)
+			(at 75.057 119.507 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8442,7 +8986,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 70.358 113.284 90)
+			(at 74.803 115.189 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8452,7 +8996,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 70.485 117.348 90)
+			(at 74.93 119.253 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8463,7 +9007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 70.485 115.57 0)
+			(at 74.93 117.475 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8474,7 +9018,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 70.485 115.57 0)
+			(at 74.93 117.475 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8485,7 +9029,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 70.485 115.57 90)
+			(at 74.93 117.475 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8949,6 +9493,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:RCLAMP0582B")
+		(at 45.085 131.445 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "202f5fc6-3557-4291-88f2-389dade2c7f4")
+		(property "Reference" "D4"
+			(at 42.545 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM15-02HTG"
+			(at 38.1 126.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Damian_PCB:SM15-02HTG TSOT-23"
+			(at 45.085 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b"
+			(at 43.815 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional dual ESD protection diode, SC-75"
+			(at 45.085 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0a8173aa-b3b4-4de1-9cbb-0ecc3321cf2c")
+		)
+		(pin "1"
+			(uuid "269ad00f-22c2-43b4-baab-89105e83c9ec")
+		)
+		(pin "2"
+			(uuid "d602669c-fc54-4fcd-bada-4501da23ffee")
+		)
+		(instances
+			(project "Modulo_SIMA7670SA"
+				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 80.645 38.1 0)
 		(unit 1)
@@ -9231,7 +9859,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 75.565 100.965 0)
+		(at 80.01 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9241,7 +9869,7 @@
 		(dnp no)
 		(uuid "232b6b99-774c-4d35-85f1-ee65647ae738")
 		(property "Reference" "JP4"
-			(at 75.692 97.409 0)
+			(at 80.137 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9251,7 +9879,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 75.565 97.155 0)
+			(at 80.01 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9262,7 +9890,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 75.565 100.965 0)
+			(at 80.01 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9273,7 +9901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 75.565 100.965 0)
+			(at 80.01 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9284,7 +9912,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 75.565 100.965 0)
+			(at 80.01 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9295,7 +9923,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 75.565 100.965 0)
+			(at 80.01 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9315,96 +9943,6 @@
 			(project "Modulo_SIMA7670SA"
 				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
 					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 170.18 53.975 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2501fdeb-fd3f-465b-8828-8b43728afc3e")
-		(property "Reference" "C4"
-			(at 172.593 55.245 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 170.688 57.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 166.37 54.9402 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 53.975 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 170.18 53.975 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 170.18 53.975 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "254812c1-1d60-4ae8-ac91-2c5fa6f1bbd1")
-		)
-		(pin "2"
-			(uuid "3a173f19-c6ab-48a5-9399-38a6c1b7277a")
-		)
-		(instances
-			(project "Modulo_SIMA7670SA"
-				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9491,83 +10029,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.925 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2861fd65-2f4b-42ea-b46b-fb014bfd2674")
-		(property "Reference" "#PWR07"
-			(at 34.925 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.798 120.269 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.925 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.925 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.925 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42d91ffe-f517-4c3d-b0ae-e64fadc104a9")
-		)
-		(instances
-			(project "Modulo_SIMA7670SA"
-				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 29.845 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -9645,6 +10106,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 170.18 46.355 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a6287fa-87a6-49f1-89cc-18ba7246faad")
+		(property "Reference" "C3"
+			(at 171.45 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 177.8 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 173.99 45.3898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 170.18 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6934a8a7-94f5-4b5c-8036-aba8c029a4a1")
+		)
+		(pin "1"
+			(uuid "9acf7234-58a9-4bc5-b12a-89b3997f22a1")
+		)
+		(instances
+			(project "Modulo_SIMA7670SA"
+				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Dual_KAK")
 		(at 224.155 104.14 270)
 		(unit 1)
@@ -9666,7 +10219,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MV5439A"
+		(property "Value" "WP59EGW/CA"
 			(at 229.108 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,7 +11226,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 69.85 125.095 0)
+		(at 74.295 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10684,7 +11237,7 @@
 		(dnp no)
 		(uuid "4e1e0984-133d-4978-a825-ddf7c5a7ef42")
 		(property "Reference" "Q1"
-			(at 64.135 123.8249 0)
+			(at 68.58 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10695,7 +11248,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 64.135 126.3649 0)
+			(at 68.58 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10706,7 +11259,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 64.77 127 0)
+			(at 69.215 128.905 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10719,7 +11272,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 64.77 128.905 0)
+			(at 69.215 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10731,7 +11284,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 69.85 125.095 0)
+			(at 74.295 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10742,7 +11295,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 69.85 125.095 0)
+			(at 74.295 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11472,7 +12025,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 84.455 107.95 270)
+		(at 88.9 109.855 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11482,7 +12035,7 @@
 		(dnp no)
 		(uuid "663a49fb-d7b1-4c26-a6fc-400b57ef128d")
 		(property "Reference" "#PWR026"
-			(at 80.645 107.95 0)
+			(at 85.09 109.855 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11493,7 +12046,7 @@
 			)
 		)
 		(property "Value" "12V_StepDown"
-			(at 86.995 107.95 90)
+			(at 91.44 109.855 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11504,7 +12057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 84.455 107.95 0)
+			(at 88.9 109.855 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11515,7 +12068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 84.455 107.95 0)
+			(at 88.9 109.855 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11526,7 +12079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 84.455 107.95 0)
+			(at 88.9 109.855 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12202,86 +12755,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 146.05 19.685 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "74db68a6-a2e0-4bdc-a4b7-3446b7ef5021")
-		(property "Reference" "#PWR05"
-			(at 146.05 23.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V_b"
-			(at 142.875 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 19.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 19.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 146.05 19.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d30c3e1a-a325-47f6-8013-32c56be5df95")
-		)
-		(instances
-			(project "Modulo_SIMA7670SA"
-				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 74.93 128.905 0)
+		(at 48.26 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12289,9 +12764,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7640d3a4-df3a-4c03-b8a6-c95b980cb564")
-		(property "Reference" "R6"
-			(at 76.454 127.762 0)
+		(uuid "75e3a714-6d3e-4579-8949-5803fad8308e")
+		(property "Reference" "R19"
+			(at 48.895 99.695 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12301,8 +12776,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
-			(at 75.946 129.794 0)
+		(property "Value" "47"
+			(at 52.07 99.695 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12313,7 +12788,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 73.152 128.905 90)
+			(at 48.26 103.378 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12324,7 +12799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 128.905 0)
+			(at 48.26 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12335,7 +12810,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 128.905 0)
+			(at 48.26 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12346,7 +12821,99 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 74.93 128.905 0)
+			(at 48.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d8ad2a9-4be6-49fb-8522-35f2269d3eb1")
+		)
+		(pin "2"
+			(uuid "e789ca4d-736f-4b9e-b2b4-4fb80c891960")
+		)
+		(instances
+			(project "Modulo_SIMA7670SA"
+				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 79.375 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7640d3a4-df3a-4c03-b8a6-c95b980cb564")
+		(property "Reference" "R6"
+			(at 80.899 129.667 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 80.391 131.699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 77.597 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 79.375 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 79.375 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 79.375 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12373,7 +12940,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 125.095 90)
+		(at 83.185 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12383,7 +12950,7 @@
 		(dnp no)
 		(uuid "7877d841-ae30-4185-82bb-8827c26a9a56")
 		(property "Reference" "R7"
-			(at 78.74 123.19 90)
+			(at 83.185 125.095 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12393,7 +12960,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 78.74 121.666 90)
+			(at 83.185 123.571 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12403,7 +12970,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 78.74 126.873 90)
+			(at 83.185 128.778 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12414,7 +12981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 125.095 0)
+			(at 83.185 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12425,7 +12992,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 125.095 0)
+			(at 83.185 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12436,7 +13003,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 78.74 125.095 90)
+			(at 83.185 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12616,8 +13183,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 66.675 107.95 90)
+		(lib_id "Device:R")
+		(at 48.26 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12625,20 +13192,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "80b0aab8-3e4e-416b-8bbb-9dbcead13870")
-		(property "Reference" "#PWR027"
-			(at 70.485 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 64.135 107.95 90)
+		(uuid "7f96829d-9abc-4415-8683-ead7ac2132c1")
+		(property "Reference" "R20"
+			(at 48.895 104.775 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12648,8 +13204,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.675 107.95 0)
+		(property "Value" "47"
+			(at 52.07 104.775 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 48.26 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12660,7 +13227,99 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.675 107.95 0)
+			(at 48.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 48.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ebd4534-f7c4-4c4a-a640-685ffac6613f")
+		)
+		(pin "2"
+			(uuid "679bddb9-5b37-4529-b373-937b5b8e8d74")
+		)
+		(instances
+			(project "Modulo_SIMA7670SA"
+				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 71.12 109.855 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80b0aab8-3e4e-416b-8bbb-9dbcead13870")
+		(property "Reference" "#PWR027"
+			(at 74.93 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 68.58 109.855 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 109.855 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12671,7 +13330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 66.675 107.95 0)
+			(at 71.12 109.855 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12864,98 +13523,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 170.18 46.355 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87a2f48a-244d-4606-a88f-4e7cb2ef22eb")
-		(property "Reference" "C3"
-			(at 174.117 47.625 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 173.355 49.657 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 173.99 45.3898 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 46.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 170.18 46.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 170.18 46.355 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f8886d89-690f-4fdd-a7da-9ffb33f1c470")
-		)
-		(pin "1"
-			(uuid "08ef19ae-70c2-447b-a5c1-accf5c9727aa")
-		)
-		(instances
-			(project "Modulo_SIMA7670SA"
-				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "New_Library:SimCom_A7670SA")
 		(at 227.965 40.005 0)
 		(unit 1)
@@ -12987,7 +13554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Damian_PCB:SimCom_A7670SA"
+		(property "Footprint" "Damian_PCB:BKP_A7670SA"
 			(at 228.473 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -13074,6 +13641,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 159.385 19.685 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "885cd161-af77-47c2-9e47-0cd00ee9b89e")
+		(property "Reference" "#PWR05"
+			(at 155.575 19.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_b"
+			(at 161.925 19.685 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.385 19.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 19.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 159.385 19.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db124e43-1f0d-41d1-816f-fd1eeda6e50b")
+		)
+		(instances
+			(project "Modulo_SIMA7670SA"
+				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_UART:MAX232")
 		(at 146.05 56.515 0)
 		(unit 1)
@@ -13095,7 +13740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX232"
+		(property "Value" "MAX3232E"
 			(at 133.604 29.337 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13298,7 +13943,7 @@
 		(dnp no)
 		(uuid "8e9b8866-036f-4f5c-9ac9-d57fbdbbc95a")
 		(property "Reference" "C13"
-			(at 189.23 106.68 0)
+			(at 189.23 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13309,7 +13954,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 187.96 108.585 0)
+			(at 189.23 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13924,7 +14569,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MV5439A"
+		(property "Value" "WP59EGW/CA"
 			(at 254.254 104.902 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14076,8 +14721,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 155.575 19.685 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e2fdcc8-978d-45d0-99c0-2658bd58a32b")
+		(property "Reference" "F1"
+			(at 155.575 15.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MF-NSMF005/60X"
+			(at 155.575 17.145 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Damian_PCB:MF-NSMF005_60X"
+			(at 160.655 18.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.575 19.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 155.575 19.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87947397-09df-4090-877a-22ac817f9df4")
+		)
+		(pin "2"
+			(uuid "da9563be-cdbb-4191-8d26-dc9f55953587")
+		)
+		(instances
+			(project "Modulo_SIMA7670SA"
+				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 67.31 132.715 0)
+		(at 71.755 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14087,7 +14812,7 @@
 		(dnp no)
 		(uuid "9e69ba26-ab9d-49ad-b781-970048aed45a")
 		(property "Reference" "#PWR028"
-			(at 67.31 139.065 0)
+			(at 71.755 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14098,7 +14823,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 70.612 134.366 0)
+			(at 75.057 136.271 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14108,7 +14833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 132.715 0)
+			(at 71.755 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14119,7 +14844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 132.715 0)
+			(at 71.755 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14130,7 +14855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 132.715 0)
+			(at 71.755 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14154,7 +14879,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:FDN340P")
-		(at 75.565 110.49 270)
+		(at 80.01 112.395 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14165,7 +14890,7 @@
 		(dnp no)
 		(uuid "a5f600ae-15c9-47c2-a3af-48dc4cb1216e")
 		(property "Reference" "Q2"
-			(at 75.565 102.87 90)
+			(at 80.01 104.775 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14175,7 +14900,7 @@
 			)
 		)
 		(property "Value" "FDN340P"
-			(at 75.565 104.775 90)
+			(at 80.01 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14185,7 +14910,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 73.66 105.41 0)
+			(at 78.105 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14198,7 +14923,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF"
-			(at 71.755 105.41 0)
+			(at 76.2 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14210,7 +14935,7 @@
 			)
 		)
 		(property "Description" "-2A Id, -20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23"
-			(at 75.565 110.49 0)
+			(at 80.01 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14221,7 +14946,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 75.565 110.49 90)
+			(at 80.01 112.395 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14496,6 +15221,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:RCLAMP0582B")
+		(at 45.085 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa8e2b9f-7513-41ee-91ba-bf3225cb9372")
+		(property "Reference" "D1"
+			(at 43.815 111.125 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM15-02HTG"
+			(at 39.37 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Damian_PCB:SM15-02HTG TSOT-23"
+			(at 45.085 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b"
+			(at 43.815 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional dual ESD protection diode, SC-75"
+			(at 45.085 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "011902a2-7ec4-4be7-b91d-46a1ed90932e")
+		)
+		(pin "1"
+			(uuid "d1a86656-b41d-46d2-ab57-f0d674d401e6")
+		)
+		(pin "2"
+			(uuid "098ddd96-d976-4a6c-9d08-ce25fa919e10")
+		)
+		(instances
+			(project "Modulo_SIMA7670SA"
+				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 114.935 107.95 0)
 		(unit 1)
@@ -14567,6 +15376,83 @@
 			(project "Modulo_SIMA7670SA"
 				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "acd6d92b-aa1b-4e65-a16d-441d219533c0")
+		(property "Reference" "#PWR07"
+			(at 22.86 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.733 124.079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0d00918-d1ed-4951-9d2a-c74631b7ebec")
+		)
+		(instances
+			(project "Modulo_SIMA7670SA"
+				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15002,98 +15888,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 121.285 37.465 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bec95e83-3e14-45a6-8945-42a9721999dc")
-		(property "Reference" "C1"
-			(at 114.808 36.195 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 113.538 38.481 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 122.2502 41.275 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.285 37.465 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 121.285 37.465 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 121.285 37.465 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "458308ea-5bcb-412b-8050-be76cc88a276")
-		)
-		(pin "2"
-			(uuid "3b2a695d-4c61-45db-9eca-e0193690d7ad")
-		)
-		(instances
-			(project "Modulo_SIMA7670SA"
-				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 57.15 64.77 90)
 		(unit 1)
@@ -15342,7 +16136,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.645 115.57 90)
+		(at 85.09 117.475 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15352,7 +16146,7 @@
 		(dnp no)
 		(uuid "cabec716-3010-4611-bc39-5a0dab48e3c7")
 		(property "Reference" "R5"
-			(at 80.645 117.602 90)
+			(at 85.09 119.507 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15362,7 +16156,7 @@
 			)
 		)
 		(property "Value" "15K"
-			(at 80.899 113.538 90)
+			(at 85.344 115.443 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15372,7 +16166,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 80.645 117.348 90)
+			(at 85.09 119.253 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15383,7 +16177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.645 115.57 0)
+			(at 85.09 117.475 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15394,7 +16188,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 80.645 115.57 0)
+			(at 85.09 117.475 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15405,7 +16199,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 80.645 115.57 90)
+			(at 85.09 117.475 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15851,98 +16645,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 170.18 37.465 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d8f5b298-9dcd-41d8-ba39-437f2271b78c")
-		(property "Reference" "C2"
-			(at 173.99 36.195 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 173.482 38.227 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 171.1452 41.275 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 37.465 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 170.18 37.465 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 170.18 37.465 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "81932e2c-d83e-4dd0-9d5a-60ecedfe4b89")
-		)
-		(pin "1"
-			(uuid "a362f02e-4d79-4d3a-b998-563118f377a9")
-		)
-		(instances
-			(project "Modulo_SIMA7670SA"
-				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 116.205 137.16 0)
 		(unit 1)
@@ -16093,6 +16795,98 @@
 			(project "Modulo_SIMA7670SA"
 				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 121.285 37.465 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e993f5d8-03f8-4805-b41a-eab24c36cfb7")
+		(property "Reference" "C1"
+			(at 124.206 36.957 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 123.952 38.735 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 122.2502 41.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 37.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.285 37.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 121.285 37.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "acd813ff-4938-449d-973d-a4287dcdbdbf")
+		)
+		(pin "1"
+			(uuid "4936db12-749e-492b-b1fe-c72f6a9f3d4f")
+		)
+		(instances
+			(project "Modulo_SIMA7670SA"
+				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -16764,6 +17558,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 170.18 53.975 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f54f14f2-6d1f-4356-ab71-ebc6c4116709")
+		(property "Reference" "C4"
+			(at 171.45 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 177.8 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 173.99 53.0098 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 170.18 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eba8ede3-e0f1-48cf-9d9f-4a338f59606f")
+		)
+		(pin "1"
+			(uuid "dbb9b125-05df-46df-9073-aea7b61084be")
+		)
+		(instances
+			(project "Modulo_SIMA7670SA"
+				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Memory_EEPROM:24LC512")
 		(at 33.02 158.75 0)
 		(unit 1)
@@ -16868,6 +17754,98 @@
 			(project "Modulo_SIMA7670SA"
 				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 170.18 37.465 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f94a21cc-9161-4a85-9f44-fda73d514444")
+		(property "Reference" "C2"
+			(at 172.72 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 172.72 38.735 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 171.1452 41.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 37.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 37.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 170.18 37.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "afd94e97-f5a3-4987-8a42-3ec63bf34fda")
+		)
+		(pin "1"
+			(uuid "07034ca3-e442-4831-b4d4-5164e4083e19")
+		)
+		(instances
+			(project "Modulo_SIMA7670SA"
+				(path "/dcddb0b4-aece-4f57-80c5-ef9bd7fff7ad"
+					(reference "C2")
 					(unit 1)
 				)
 			)
