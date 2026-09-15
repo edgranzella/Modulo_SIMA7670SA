@@ -6828,13 +6828,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 133.985) (xy 31.75 120.65)
+			(xy 31.75 120.65) (xy 39.37 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05bb885d-4212-4d7b-abbe-c9278757bd79")
+		(uuid "05a3f8ce-1ef6-4243-a71d-048ba31b4ebd")
 	)
 	(wire
 		(pts
@@ -7055,6 +7055,16 @@
 			(type default)
 		)
 		(uuid "29732ae6-5ad9-4c65-8200-8ac19cc7a7a1")
+	)
+	(wire
+		(pts
+			(xy 38.1 115.57) (xy 39.37 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d26086-72f4-4693-8a79-02a0e9f7eea7")
 	)
 	(wire
 		(pts
@@ -7338,16 +7348,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.005 128.905) (xy 35.56 128.905)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f12ef56-47a7-46ce-88f2-7c6445175968")
-	)
-	(wire
-		(pts
 			(xy 40.005 33.02) (xy 40.005 34.29)
 		)
 		(stroke
@@ -7398,16 +7398,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.005 115.57) (xy 38.1 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f0aefe8-b8db-4113-9bed-7ab738aff296")
-	)
-	(wire
-		(pts
 			(xy 74.93 102.87) (xy 74.93 109.855)
 		)
 		(stroke
@@ -7415,6 +7405,16 @@
 			(type default)
 		)
 		(uuid "74e92fad-a9ca-41d2-9817-a068dfa55ceb")
+	)
+	(wire
+		(pts
+			(xy 31.75 120.65) (xy 31.75 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76111ff9-4173-43ce-80df-b8652d950190")
 	)
 	(wire
 		(pts
@@ -7478,6 +7478,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 130.175) (xy 39.37 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84802408-36e7-47e9-9130-114f260c7c6a")
+	)
+	(wire
+		(pts
 			(xy 186.69 102.87) (xy 192.405 102.87)
 		)
 		(stroke
@@ -7495,16 +7505,6 @@
 			(type default)
 		)
 		(uuid "84e9a5de-f052-4637-b48b-40bf5dffe862")
-	)
-	(wire
-		(pts
-			(xy 31.75 120.65) (xy 40.005 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "862b40a0-7407-4d43-9ab5-fa58411de215")
 	)
 	(wire
 		(pts
@@ -7558,13 +7558,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 128.905) (xy 35.56 101.6)
+			(xy 35.56 125.095) (xy 39.37 125.095)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a9642ce-bb96-4329-aeb1-261c556735f3")
+		(uuid "9b038759-27cd-4bed-8273-0663f7f000d7")
 	)
 	(wire
 		(pts
@@ -7625,6 +7625,16 @@
 			(type default)
 		)
 		(uuid "af505112-d831-402c-b0f1-d37de59f75e2")
+	)
+	(wire
+		(pts
+			(xy 35.56 125.095) (xy 35.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13f3017-4e75-4168-8aa9-b940ba531a70")
 	)
 	(wire
 		(pts
@@ -7795,16 +7805,6 @@
 			(type default)
 		)
 		(uuid "d62f0fa3-1337-41b7-ae9d-ca279f1cb208")
-	)
-	(wire
-		(pts
-			(xy 40.005 133.985) (xy 31.75 133.985)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6e0ffe6-bf5b-4d51-8454-d60a712c0caa")
 	)
 	(wire
 		(pts
@@ -9494,7 +9494,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:RCLAMP0582B")
-		(at 45.085 131.445 180)
+		(at 44.45 127.635 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9504,7 +9504,7 @@
 		(dnp no)
 		(uuid "202f5fc6-3557-4291-88f2-389dade2c7f4")
 		(property "Reference" "D4"
-			(at 42.545 124.46 0)
+			(at 46.355 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9515,7 +9515,7 @@
 			)
 		)
 		(property "Value" "SM15-02HTG"
-			(at 38.1 126.365 0)
+			(at 38.735 132.715 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9526,7 +9526,7 @@
 			)
 		)
 		(property "Footprint" "Damian_PCB:SM15-02HTG TSOT-23"
-			(at 45.085 123.825 0)
+			(at 44.45 120.015 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9537,7 +9537,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b"
-			(at 43.815 133.985 0)
+			(at 43.18 130.175 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9548,7 +9548,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional dual ESD protection diode, SC-75"
-			(at 45.085 131.445 0)
+			(at 44.45 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15222,7 +15222,8 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:RCLAMP0582B")
-		(at 45.085 118.11 180)
+		(at 44.45 118.11 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15232,7 +15233,7 @@
 		(dnp no)
 		(uuid "aa8e2b9f-7513-41ee-91ba-bf3225cb9372")
 		(property "Reference" "D1"
-			(at 43.815 111.125 0)
+			(at 46.355 120.015 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15243,7 +15244,7 @@
 			)
 		)
 		(property "Value" "SM15-02HTG"
-			(at 39.37 113.03 0)
+			(at 40.005 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15254,7 +15255,7 @@
 			)
 		)
 		(property "Footprint" "Damian_PCB:SM15-02HTG TSOT-23"
-			(at 45.085 110.49 0)
+			(at 44.45 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15265,7 +15266,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b"
-			(at 43.815 120.65 0)
+			(at 43.18 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15276,7 +15277,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional dual ESD protection diode, SC-75"
-			(at 45.085 118.11 0)
+			(at 44.45 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

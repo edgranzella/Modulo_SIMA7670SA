@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.3"
     },
-    "CreationDate": "2026-09-10T08:43:52-03:00"
+    "CreationDate": "2026-09-15T16:55:19-03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,7 +14,7 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 90.8,
+      "X": 92.5,
       "Y": 85.5
     },
     "LayerNumber": 2,
@@ -56,6 +56,11 @@
     {
       "Path": "Modulo_SIMA7670SA-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Modulo_SIMA7670SA-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
