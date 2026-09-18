@@ -11693,8 +11693,8 @@
 				)
 			)
 		)
-		(property "Value" "Jack DC 2.1mm PCB recto"
-			(at 24.638 44.704 0)
+		(property "Value" "Jack DC 2.1mm"
+			(at 21.59 45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
